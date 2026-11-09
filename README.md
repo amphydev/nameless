@@ -4,27 +4,27 @@ Prototipo responsive de alta fidelidad para crear plantillas reutilizables y gen
 
 ## Estructura del proyecto
 
+Todos los archivos están en la raíz del proyecto, sin subcarpetas:
+
 ```text
 arcana-studio/
-├── index.html          # Estructura y contenido de la web
-├── css/
-│   └── styles.css      # Estilos y diseño responsive
-├── js/
-│   └── script.js       # Navegación e interacciones
-└── README.md           # Instrucciones del proyecto
+├── index.html   # Estructura y contenido de la web
+├── styles.css   # Estilos y diseño responsive
+├── script.js    # Navegación e interacciones
+└── README.md    # Instrucciones del proyecto
 ```
 
 ## Ejecutar localmente
 
-Abre `index.html` en un navegador. No requiere instalación, dependencias ni servidor. Mantén las carpetas `css` y `js` junto al HTML para que se carguen correctamente.
+Abre `index.html` en un navegador. No requiere instalación, dependencias ni servidor.
 
 ## Publicar en GitHub Pages
 
 1. Crea un repositorio en GitHub.
-2. Sube todos los archivos y carpetas respetando la estructura anterior.
+2. Sube los cuatro archivos a la raíz del repositorio.
 3. Entra en **Settings → Pages**.
 4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Elige la rama `main` y la carpeta `/ (root)`, guarda y espera la publicación.
+5. Selecciona la rama `main` y la carpeta `/ (root)`, y guarda.
 
 ## Recorrido principal
 
